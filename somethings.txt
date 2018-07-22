@@ -1,0 +1,8 @@
+
+获取安卓版的剪切板 数据 : 
+
+Dim Copyyyyyyyy
+Copyyyyyyyy = Sys.GetClipText()
+TracePrint Copyyyyyyyy 
+
+
