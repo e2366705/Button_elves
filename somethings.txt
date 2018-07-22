@@ -6,3 +6,11 @@ Copyyyyyyyy = Sys.GetClipText()
 TracePrint Copyyyyyyyy 
 
 
+将文本数据写入txt文件 : 
+
+Dim 返回值,文件路径="/sdcard/AAAAAAAAAAAAAAAAAAAAAAAA.txt",内容="I LOVE YOU",追加内容=" DOY YOU LOVE ME ??"
+Call File.Write(文件路径,内容)  
+Call File.Append(文件路径, 追加内容)
+返回值=File.Read(文件路径) 
+TracePrint 返回值 //返回字符串"我爱你，你也爱我吗？"
+
