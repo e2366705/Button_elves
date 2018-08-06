@@ -1,0 +1,5 @@
+//按键精灵 安卓 (Android)  从 安卓SD卡读取文件 
+//比如  : 从安卓SD卡读取mp3音频文件进行播放 
+//如 : 
+PlaySound "/sdcard/ZZZZZZZZZZZZZZZZZ/1.mp3"
+Delay 100000
