@@ -3,3 +3,13 @@
 //如 : 
 PlaySound "/sdcard/ZZZZZZZZZZZZZZZZZ/1.mp3"
 Delay 100000
+
+
+
+按键精灵 读写文件 !  :  
+//写入文本信息（路径，内容）
+Call File.Write("/sdcard/MobileAnjian/anjian.txt","我爱按键精灵")
+//读取文本信息（路径）
+Dim 返回值
+返回值=File.Read("/sdcard/MobileAnjian/anjian.txt")
+TracePrint 返回值
