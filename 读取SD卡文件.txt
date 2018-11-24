@@ -3,6 +3,7 @@
 //如 : 
 PlaySound "/sdcard/ZZZZZZZZZZZZZZZZZ/1.mp3"
 Delay 100000
+///////////   记住 后面的   Delay 100000   一定要加上 !!!!! 不然就关闭程序  播放音乐会失败
 
 
 
